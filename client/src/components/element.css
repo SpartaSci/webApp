@@ -1,0 +1,23 @@
+.no-border tr, .no-border td, .no-border th{
+    border: none !important;
+}
+.no-border {
+    table-layout: fixed;
+    width: 100%; /* Assicurati che la tabella occupi l'intera larghezza del contenitore */
+}
+
+.no-border td {
+    width: 33.33%; /* Divide equamente la larghezza tra tre colonne, adatta questo valore in base al numero di colonne */
+}
+
+.tooltip-inner {
+    background-color: #f00; /* Red background for visibility */
+    color: #fff; /* White text */
+    padding: 5px 10px; /* Some padding */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.tooltip-arrow {
+    border-right-color: #f00 !important; /* Arrow color */
+}
+
